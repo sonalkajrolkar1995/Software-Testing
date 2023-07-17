@@ -3,6 +3,7 @@ package org.example;
 public class Variable {
         int c = 2; //Instance Variable
         static int abc = 1; //static variable
+        static int u=2;
         public static void main(String[] args){
             int a = 5; //Local Variable. Local to entire main method.
             int x = 0;
@@ -17,8 +18,13 @@ public class Variable {
                 System.out.println("Value of x: "+x);
                 System.out.println("value of y:"+y);
             }
-            System.out.println("X is : "+x);
+            System.out.println("X is : "+x);git
+
+
+
+                    
             System.out.println(" static variable "  +abc); //Accessing Static variable
+            System.out.println("static variable is "+u);
 //        System.out.println(y); //Cannot access local variable 'y'.
         }
         int y = 6; //Instance Variable
