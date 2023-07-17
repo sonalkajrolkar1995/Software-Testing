@@ -9,7 +9,7 @@ public class Variable {
             System.out.println(a+2);
             //<className> <ObjectName/Reference Variable Name> = new <className>();
             Variable vs = new Variable();
-            System.out.println(vs.b+3); //Accessing an instance variable
+            System.out.println(vs.y+3); //Accessing an instance variable
             System.out.println(vs.c-1);
             if(a>0){
                 int y = 9; //Local Variable. Local to 'if' block only.
@@ -21,7 +21,7 @@ public class Variable {
             System.out.println(" static variable "  +abc); //Accessing Static variable
 //        System.out.println(y); //Cannot access local variable 'y'.
         }
-        int b = 6; //Instance Variable
+        int y = 6; //Instance Variable
     }
 
 //Instance Variable: Declared inside a class but not inside any method (not even inside main method), loop or conditions. Can be accessed only with an Object.
