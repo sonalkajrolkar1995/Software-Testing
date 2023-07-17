@@ -15,7 +15,7 @@ public class Variable {
                 int y = 9; //Local Variable. Local to 'if' block only.
                 x= 10; //updating value of x
                 System.out.println("Value of x: "+x);
-                System.out.println(y);
+                System.out.println("value of y:"+y);
             }
             System.out.println("X is : "+x);
             System.out.println(" static variable "  +abc); //Accessing Static variable
